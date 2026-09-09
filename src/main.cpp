@@ -1,9 +1,4 @@
 #include <Arduino.h>
-
-#ifndef ZIGBEE_MODE_ZCZR
-#error "Zigbee Coordinator/Router mode is not enabled!"
-#endif
-
 #include "Zigbee.h"
 
 #define ZIGBEE_ENDPOINT 1
